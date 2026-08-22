@@ -1,0 +1,114 @@
+<title>Wolfhart Pannenberg</title>
+<style>
+  :root {
+    --ink: #ede3cf; --ink-soft: #cdbfa4; --paper: #211c16; --paper-raised: #2a241c;
+    --line: rgba(237,227,207,0.16); --wine: #c17a4d; --wine-soft: #c17a4d1c;
+    --gold: #d6ad5c; --gold-soft: #d6ad5c1a; --muted: #a3947a;
+    color-scheme: dark;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --ink: #2a2318; --ink-soft: #4d4330; --paper: #f4ecdb; --paper-raised: #ffffff;
+      --line: rgba(42,35,24,0.15); --wine: #9c4f27; --wine-soft: #9c4f2714;
+      --gold: #8a6414; --gold-soft: #8a641414; --muted: #7a6c52; color-scheme: light;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #ede3cf; --ink-soft: #cdbfa4; --paper: #211c16; --paper-raised: #2a241c;
+    --line: rgba(237,227,207,0.16); --wine: #c17a4d; --wine-soft: #c17a4d1c;
+    --gold: #d6ad5c; --gold-soft: #d6ad5c1a; --muted: #a3947a;
+  }
+  :root[data-theme="light"] {
+    --ink: #2a2318; --ink-soft: #4d4330; --paper: #f4ecdb; --paper-raised: #ffffff;
+    --line: rgba(42,35,24,0.15); --wine: #9c4f27; --wine-soft: #9c4f2714;
+    --gold: #8a6414; --gold-soft: #8a641414; --muted: #7a6c52;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px; line-height: 1.7; -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--wine-soft); }
+  h1, h2, h3, h4 {
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "URW Palladio", serif;
+    text-wrap: balance; font-weight: 400; color: var(--gold); margin: 0;
+  }
+  p { margin: 0 0 1.1em; max-width: 42em; }
+  strong { color: var(--ink); font-weight: 700; }
+  em { color: var(--wine); font-style: italic; }
+  a { color: var(--wine); }
+  header.hero { padding: 60px 24px 40px; text-align: center; border-bottom: 1px solid var(--line); }
+  header.hero .eyebrow { font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--wine); margin-bottom: 12px; }
+  header.hero h1 { font-size: clamp(30px, 4.6vw, 44px); max-width: 20ch; margin: 0 auto 8px; font-style: italic; }
+  header.hero .sub { max-width: 46em; margin: 0 auto; color: var(--ink-soft); font-size: 17px; }
+  nav.chapters {
+    position: sticky; top: 0; z-index: 10; display: flex; gap: 2px; overflow-x: auto;
+    background: var(--paper); border-bottom: 1px solid var(--line); padding: 0 12px;
+  }
+  nav.chapters a {
+    flex: none; padding: 12px 13px; font-size: 13px; text-decoration: none; color: var(--muted);
+    white-space: nowrap; border-bottom: 2px solid transparent;
+  }
+  nav.chapters a:hover { color: var(--wine); border-color: var(--wine-soft); }
+  main { max-width: 780px; margin: 0 auto; padding: 0 24px 40px; }
+  section.chapter { padding: 48px 0 32px; border-bottom: 1px solid var(--line); scroll-margin-top: 50px; }
+  section.chapter:last-of-type { border-bottom: none; }
+  section.chapter h2 { font-size: clamp(22px, 3vw, 27px); margin-bottom: 14px; font-style: italic; }
+  h3.sec { font-size: 19px; color: var(--gold); margin: 26px 0 8px; }
+  ul.plain, ol { padding-left: 1.3em; margin: 0 0 1.1em; max-width: 42em; }
+  ul.plain li, ol li { margin-bottom: 9px; }
+  blockquote {
+    margin: 18px 0; padding: 6px 0 6px 18px; border-left: 3px solid var(--gold);
+    font-style: italic; color: var(--ink-soft); max-width: 40em;
+  }
+  footer.page { max-width: 780px; margin: 0 auto; padding: 34px 24px 60px; font-size: 13.5px; color: var(--muted); }
+</style>
+
+<header class="hero">
+  <p class="eyebrow">Twentieth-Century Theology &middot; Revelation as History</p>
+  <h1>Wolfhart Pannenberg</h1>
+  <p class="sub">The Resurrection as Public History — Eschatological Ontology and the Unity of Truth</p>
+</header>
+
+<nav class="chapters">
+  <a href="#life">Life and Context</a>
+  <a href="#history">Revelation as History</a>
+  <a href="#resurrection">The Resurrection as Historical Event</a>
+  <a href="#ontology">Eschatological Ontology</a>
+  <a href="#legacy">Legacy: Science and Ecumenism</a>
+</nav>
+
+<main>
+<section class="chapter" id="life"><h2>Life and Context</h2>
+
+<p>Born in Stettin in 1928 and raised under the shadow of the Nazi regime, Pannenberg studied at Berlin, Göttingen and Basel (briefly encountering Barth) before completing his training at Heidelberg under the Barthian Edmund Schlink, writing a dissertation on Duns Scotus and a habilitation on analogy in Western metaphysics. As a young lecturer at Heidelberg he discovered Hegel's philosophy of history and gathered the interdisciplinary <strong>Pannenberg Circle</strong>, which shook German theology in 1961 with <em>Offenbarung als Geschichte</em> (<em>Revelation as History</em>). He taught alongside Moltmann at Wuppertal, held the Mainz chair from 1961, and spent his mature career at Munich (1967–93), founding an Ecumenical Institute and conducting decades of dialogue with process theologians and natural scientists.</p>
+
+</section>
+<section class="chapter" id="history"><h2>Revelation as History</h2>
+
+<p>Pannenberg's central claim: <strong>revelation is history</strong>, not the direct verbal address of a "Word" (against Barth) or a private existential decision (against Bultmann). Because history is a pluriform, uncompleted process, no single event discloses God's identity in isolation — only from the <strong>end of history</strong> can the whole course of time be recognised as revelation. The Christian claim is that this eschatological end, expected by Jewish apocalypticism as a future cosmic event, has been <strong>proleptically anticipated</strong> in the resurrection of Jesus, giving theology a rational, public claim to universal truth that meets the modern critique of religion without retreating into privatised faith.</p>
+
+</section>
+<section class="chapter" id="resurrection"><h2>The Resurrection as Historical Event</h2>
+
+<p>To secure this claim's plausibility, Pannenberg insisted Christology proceed <strong>"from below"</strong>: the resurrection must be defended as a public, historical event more probable than any secular alternative. He developed a doctrine of <strong>retroactive determination</strong> — the resurrection is the Father's historical vindication of Jesus's pre-Easter claim to filial authority, and this vindication extends <em>backward</em> to establish Jesus's eternal Sonship from the future event of Easter. Because Jesus's divinity is established through his historical obedience and self-distinction from the Father, Pannenberg reconstructs the Trinity "from the economy of salvation," starting with the mutual self-differentiation of Father, Son and Spirit in the gospel narrative rather than the scholastic order that defines the one divine essence first.</p>
+
+</section>
+<section class="chapter" id="ontology"><h2>Eschatological Ontology</h2>
+
+<p>Pannenberg's metaphysics is a <strong>"realism of anticipation"</strong>, reversing substance-based ontologies that locate being's origin in a past cause: <strong>the future is the origin of the totality of finite beings</strong>. Eternity is not time's timeless negation but the eschatological perfection that gathers every temporal moment into itself; God's own being is characterised by futurity. Critics worried this left God's actual existence indeterminate, contingent on the world-process; in the mature <em>Systematic Theology</em> Pannenberg answered that the economic history of salvation is the perfect temporal repetition of God's eternal trinitarian life, so history's apparent indeterminacy is eternally bounded by the unchangeable identity of the triune God of love.</p>
+
+</section>
+<section class="chapter" id="legacy"><h2>Legacy: Science and Ecumenism</h2>
+
+<p>Pannenberg refused to cede the physical world to secular physicalism, correlating doctrine with modern cosmology and physics — most famously modelling the Holy Spirit's cosmic activity on the <strong>"field of force"</strong> of Faraday and Maxwell, and debating eschatology against thermodynamic predictions of the universe's "heat death." His ecclesiology, oriented toward the visible unity of the Church as anticipatory sign of the coming Kingdom, drove him to help produce the historic <strong>Joint Declaration on the Doctrine of Justification</strong> (1998), arguing that the sixteenth-century mutual condemnations no longer applied to modern doctrinal expressions and calling Protestants to reconsider the historical authority of the Bishop of Rome.</p>
+<blockquote>If theology retreats from public history, natural science and philosophy into a secure, self-justifying language-game, it forfeits its claim to speak of the one God who is creator and ultimate future of all reality.</blockquote>
+
+</section>
+</main>
+
+<footer class="page">
+  Wolfhart Pannenberg (1928&ndash;2014) &mdash; German Lutheran theologian, author of the three-volume Systematic Theology.
+</footer>
